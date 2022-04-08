@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token2",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount2",
+						"type": "uint256"
+					}
+				],
+				"name": "swap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenSwap.sol": "TokenSwapV1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IERC20.sol": {
+			"keccak256": "0xc02b4175e429ac125853db3fe5cf46b35c2d58af574dafcdf172e00e85b96399",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dce449a83326a2978c63b15ecc1abc3c66f3fa873a3e132b959cc9fc13229f34",
+				"dweb:/ipfs/QmcL6SYT8xisVFSK1zS926J24QyNK5Juf284CzuVehgcmZ"
+			]
+		},
+		"contracts/TokenSwap.sol": {
+			"keccak256": "0xe7d4bca6b193dad0e48be62d88c5b547993be1214f63029d6866e3699209d67d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://03616b75fc2d0b21ef87ef915c5381535bbbbe20e6de9aed43a6140a7ca8813f",
+				"dweb:/ipfs/QmQid1yx3GKBcr7NsRBdEWjEvpc5i4Hhshgcu7HMSTtZif"
+			]
+		}
+	},
+	"version": 1
+}

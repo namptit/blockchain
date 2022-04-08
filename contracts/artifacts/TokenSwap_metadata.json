@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token2",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount2",
+						"type": "uint256"
+					}
+				],
+				"name": "swap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenSwap.sol": "TokenSwap"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IERC20.sol": {
+			"keccak256": "0xc02b4175e429ac125853db3fe5cf46b35c2d58af574dafcdf172e00e85b96399",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dce449a83326a2978c63b15ecc1abc3c66f3fa873a3e132b959cc9fc13229f34",
+				"dweb:/ipfs/QmcL6SYT8xisVFSK1zS926J24QyNK5Juf284CzuVehgcmZ"
+			]
+		},
+		"contracts/TokenSwap.sol": {
+			"keccak256": "0x5301954d495280f7bab378389dfd1d5fe32edb20e76336f4b61df7fe2ab3a026",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://38b66336ff74aa757a23a7804af14ed5fb1d38d491c02b0e94cbd52e2e760d8b",
+				"dweb:/ipfs/QmYZz4n9LaMwoxYHaqrzvS5cYDVkw7dkNnno3d4aah7bvG"
+			]
+		}
+	},
+	"version": 1
+}
